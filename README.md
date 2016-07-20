@@ -1,12 +1,12 @@
 # executable-example
 
-Simple example to show how to get Go executable path.
+Simple example to show how to get executable path for Go program.
 
 Using:
-- os.Args[0]
-- filepath.Abs(os.Args[0])
-- runtime.Caller(0)
-- github.com/kardianos/osext => osext.Executable
+- `os.Args[0]`
+- `filepath.Abs(os.Args[0])`
+- `runtime.Caller(0)`
+- github.com/kardianos/osext => `osext.Executable`
 
 What you should test to compare behavior:
 - running builded binary from different folder
