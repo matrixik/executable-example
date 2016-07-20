@@ -8,6 +8,12 @@ Using:
 - runtime.Caller(0)
 - github.com/kardianos/osext => osext.Executable
 
+What you should test to compare behavior:
+- running builded binary from different folder
+- `go run`
+- running from symlinked folder/file
+- running in cron
+
 ## Other links
 http://stackoverflow.com/questions/12090170/go-find-the-path-to-the-executable/
 
